@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <title>My Flappy Bird</title>
     <script src="https://pygame-web.github.io/archives/0.8/pygbag.js"></script>
 </head>
-<body style="margin:0;overflow:hidden;background:black;">
+<body style="margin:0; background-color:black; overflow:hidden;">
+    <div id="status">Loading Game...</div>
+    <script>
+        window.addEventListener('load', () => {
+            // Ye line browser ko batati hai ki main.py shuru karo
+            console.log("Game loading started");
+        });
+    </script>
 </body>
 </html>
